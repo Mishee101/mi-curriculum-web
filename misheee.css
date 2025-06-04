@@ -1,40 +1,35 @@
-/* Tipografía bonita de Google Fonts */
 body {
-  font-family: 'Quicksand', sans-serif;
-  background: linear-gradient(to right, #fefcea, #f1daff); /* fondo suave degradado */
+  background-color: #f0f8ff; /* Fondo celeste claro */
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  text-align: center;
 }
 
 .contenedor {
-  max-width: 500px;
-  margin: 60px auto;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #ffffff; /* Fondo blanco para el contenido */
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
 }
 
 h1 {
-  color: #6a1b9a; /* morado bonito */
-  margin-bottom: 10px;
+  color: #007acc; /* Azul fuerte */
 }
 
 h2 {
-  color: #00796b; /* verde suave */
-  margin-top: 30px;
+  color: #28a745; /* Verde bonito */
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 
 li {
-  background-color: #e3f2fd; /* azul claro */
+  background-color: #d0eaff; /* Fondo azul claro para cada habilidad */
   margin: 8px 0;
-  padding: 10px;
-  border-radius: 6px;
-  font-weight: 600;
+  padding: 8px;
+  color: #000;
 }
